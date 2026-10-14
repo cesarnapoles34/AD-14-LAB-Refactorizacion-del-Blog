@@ -1,0 +1,31 @@
+/* Un solo CSS para las 3 páginas. Casi todo el estilo viene de Bootstrap.
+   Paleta (5 colores): dark, light, secondary-subtle, danger y white */
+
+.navbar .nav-link {
+  font-size: 1.1rem;
+}
+
+/* Página actual en rojo, como en el wireframe */
+.navbar .nav-link.active {
+  color: var(--bs-danger) !important;
+  font-weight: bold;
+}
+
+/* Columnas de AD y News: vacías, pero con un fondo para que se vean */
+.lateral {
+  background-color: var(--bs-secondary-bg);
+}
+
+/* Círculo con mis iniciales (cámbialo por una foto cuando la tengas) */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--bs-dark);
+  color: var(--bs-white);
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
